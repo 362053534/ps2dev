@@ -8,6 +8,7 @@ on:
       - v*
   repository_dispatch:
     types: [run_build]
+  workflow_dispatch: {}
 
 jobs:
   build:
