@@ -2,7 +2,7 @@
 
 PS2TOOLCHAIN_REPO_URL="https://github.com/ps2dev/ps2toolchain.git"
 PS2TOOLCHAIN_DEFAULT_REPO_REF="master"
-PS2SDK_REPO_URL="https://github.com/ps2dev/ps2sdk.git"
+PS2SDK_REPO_URL="https://github.com/362053534/ps2sdk.git"
 PS2SDK_DEFAULT_REPO_REF="master"
 PS2SDK_PORTS_REPO_URL="https://github.com/ps2dev/ps2sdk-ports.git"
 PS2SDK_PORTS_DEFAULT_REPO_REF="master"
