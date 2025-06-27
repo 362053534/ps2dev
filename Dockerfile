@@ -1,4 +1,4 @@
-FROM ghcr.io/362053534/ps2sdk-ports:latest
+FROM ghcr.io/362053534/ps2sdk:latest
 
 COPY . /src
 
