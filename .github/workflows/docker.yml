@@ -72,7 +72,7 @@ jobs:
       uses: peter-evans/repository-dispatch@v3
       if: env.DISPATCH_TOKEN != null
       with:
-        repository: ps2homebrew/ps2dev_forwarder
+        repository: ${{ github.repository_owner }}/ps2homebrew
         token: ${{ secrets.DISPATCH_TOKEN }}
         event-type: ${{ env.NEW_DISPATCH_ACTION }}
         client-payload: '{"ref": "${{ github.ref }}"}'
